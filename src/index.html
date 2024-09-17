@@ -2,12 +2,42 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>AppUi</title>
+  <title>Siddhesh Bajad</title>
   <base href="/">
+  <style>
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+        width: 12px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background-color: #e2eafc;
+        border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: #abc4ff;
+        border-radius: 10px;
+        border: 3px solid #e2eafc;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background-color: #5076cd;
+    }
+  </style>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" href="assets/slogo.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
+<body class="custom-scrollbar">
   <app-root></app-root>
 </body>
 </html>
