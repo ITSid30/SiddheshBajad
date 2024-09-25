@@ -50,7 +50,7 @@ Used multiple sensors such as UV sensors, Buzzers, Vibrators, Servo Motor in the
       github: 'https://github.com/ITSid30/Crowdfunding-Dapp',
     },
     {
-      name: 'Pothole Detection and Recovery Application',
+      name: 'Pothole Management System',
       description: `Developed a pothole reporting and repair application using Flutter with
               Firebase backend with 2 major components User and Admin.
               • Focused on creating a citizen-driven platform for efficient pothole
